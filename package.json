@@ -1,0 +1,11 @@
+{
+  "name": "node-v5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "@gyugie",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1"
+  }
+}
