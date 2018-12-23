@@ -16,12 +16,12 @@ app.use( (req, res, next) => {
 	next();
 });
 
-app.use( (req, res, next) => {
-	res.render('maintenance.hbs', {
-		note 	: 'Will Be Right Back',
-		messages: 'This App curently update'
-	});
-});
+// app.use( (req, res, next) => {
+// 	res.render('maintenance.hbs', {
+// 		note 	: 'Will Be Right Back',
+// 		messages: 'This App curently update'
+// 	});
+// });
 
 hbs.registerHelper('getFullYear', () => {
 	return new Date().getFullYear();
